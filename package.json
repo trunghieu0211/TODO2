@@ -1,0 +1,26 @@
+{
+  "name": "todoapi",
+  "version": "1.0.0",
+  "description": "Simple api for todo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "method-override": "^2.3.5",
+    "mongoose": "^4.3.5",
+    "morgan": "^1.6.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "should": "^8.2.2",
+    "sinon": "^1.17.3",
+    "sinon-mongoose": "^1.2.1"
+  }
+}
